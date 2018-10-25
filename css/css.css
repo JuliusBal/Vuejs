@@ -1,0 +1,104 @@
+html,body{
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    background-color:grey;
+}
+
+.container{
+    box-shadow: 5px 10px 18px black;
+    margin-top:50px;
+    text-align:center;
+}
+th{
+    width:100px;
+
+}
+th,tr,td{
+    border:1px dotted black;
+}
+
+table{
+    margin-bottom:20px;
+}
+form{
+    margin:30px auto 50px auto;
+    display:flex;
+    flex-direction:column;
+    max-width:25%;
+    box-shadow: 5px 10px 18px black;
+}
+input[type=text]{
+    margin:10px auto;
+}
+form button{
+    width:100px;
+    margin:0 auto 20px auto;
+}
+h1{
+    text-transform:uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+}
+.box{
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    background: #000;
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    margin: 10px auto;
+    border-radius:10px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius:5px;
+}
+
+
+.slider:hover {
+    opacity: 1;
+}
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 20px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    border-radius:5px;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    border-radius:5px;
+}
+::placeholder{
+    color:black;
+    text-align:center;
+    text-transform:uppercase;
+}
+.fas{
+    color:darkgray;
+}
+td button {
+    border: none;
+}
+.next{
+    padding-bottom:10px;
+    display: flex;
+    justify-content: space-around;
+}
